@@ -156,7 +156,7 @@ const Footer = (props) => {
           {props.credits}
           Website&nbsp;by&nbsp;
           <span>
-            <a href="http://www.jeffbrowndev.com" target="_blank">
+            <a href="http://www.jeffbrown.io" target="_blank">
               <u>Jeff&nbsp;Brown</u>
             </a>
           </span>
