@@ -2,18 +2,17 @@ import Layout from '@/components/layout';
 import fetch from 'isomorphic-unfetch';
 import React, { useEffect, useState } from 'react';
 import styles from '@/styles/eventPage.module.scss';
-import ReactHtmlParser from 'react-html-parser';
 import { useRouter } from 'next/router';
 
 const Event = () => {
   const router = useRouter();
-  const [event, setEvent] = useState({ body: {}, acf: {}  });
+  const [event, setEvent] = useState({ body: {__html:""}, acf: {}  });
 
   useEffect(() => {
     fetch(`https://admin.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
       .then(res => res.json())
       .then(event => setEvent({ 
-        body: event[0].content.rendered.replace(/\n\n\n\n/g, '<br>'), 
+        body: {__html:event[0].content.rendered.replace(/\n\n\n\n/g, '<br>')}, 
         acf: event[0].acf 
       }));
   }, [])
@@ -23,9 +22,7 @@ const Event = () => {
       <div className={styles.event_content}>
         {event.acf.title ? <h1>{event.acf.title}</h1> : <h1>Helpin' Out Event!</h1>}
         {event.acf.location_name ? <h2>{`@ ${event.acf.location_name}`}</h2> : ''}
-        <div className={styles.event_content}>
-            {ReactHtmlParser(event.body)}
-        </div>
+        <div className={styles.event_content} dangerouslySetInnerHTML={event.body} />
         {event.acf.image ? (
           <img src={event.acf.image} />
         ) : (

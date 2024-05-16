@@ -3,7 +3,6 @@ import fetch from 'isomorphic-unfetch';
 import React from 'react';
 import styles from '@/styles/article.module.scss';
 import Link from 'next/link';
-import ReactHtmlParser from 'react-html-parser';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
@@ -11,7 +10,7 @@ const moment = require('moment');
 
 const Article = () => {
   const router = useRouter();
-  const [article, setArticle] = useState({});
+  const [article, setArticle] = useState({description: {__html:""}});
 
   useEffect(() => {
     fetch(`https://admin.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
@@ -20,7 +19,7 @@ const Article = () => {
         setArticle({
           title: article[0].title.rendered,
           date: article[0].date,
-          description: article[0].content.rendered.replace(/\n\n\n\n/g, '<br>'),
+          description: {__html:article[0].content.rendered.replace(/\n\n\n\n/g, '<br>')},
           image: article[0].acf.featured_image.sizes.large
         })
       );
@@ -34,9 +33,7 @@ const Article = () => {
         </Link>
         <h2>{moment(article.date).format('LL')}</h2>
         <h1>{article.title}</h1>
-        <div className={styles.article_body}>
-          {ReactHtmlParser(article.description)}
-        </div>
+        <div className={styles.article_body} dangerouslySetInnerHTML={article.description} />
       </div>
     </Layout>
   )
