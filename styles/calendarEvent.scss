@@ -1,0 +1,54 @@
+@import "variables";
+@import "mixins";
+
+.calendar_event_container {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .calendar_dot {
+    margin-top: -5px;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    background: $blue;
+    position: absolute;
+  }
+}
+
+.calendar_popup {
+  width: 100px;
+  height: 100px;
+  background: $blue;
+  position: absolute;
+  left: 10%;
+  border-radius: 5px;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 9999;
+  opacity: 0.95;
+  color: $white;
+  box-sizing: border-box;
+  font-family: $raleway-regular;
+  h3 {
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+    padding: 15px;
+  }
+  h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: $lightgreen;
+  }
+  .popup_content {
+    margin-top: 46px;
+    padding: 0 15px 15px;
+    .popup_desc {
+      margin-top: 10px;
+      overflow-y: auto;
+    }
+  }
+}

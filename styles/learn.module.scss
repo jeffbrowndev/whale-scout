@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+
+.learn {
+  .learn_header {
+    background-image: url("/ws_learn_header.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $mediumgreen;
+    overflow-x: hidden;
+    h1 {
+      @include headerBold;
+      padding: 8% 0;
+      @include mQ(1350px) {
+        padding: 100px 0;
+      }
+    }
+  }
+  .learn_container {
+    width: 980px;
+    margin: auto;
+    @include mQ(980px) {
+      width: 100%;
+    }
+  }
+}
+
+.composition_caption {
+  text-align: center;
+  padding: 10px 0;
+  font-family: $raleway-regular;
+}

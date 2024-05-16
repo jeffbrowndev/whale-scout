@@ -1,0 +1,216 @@
+@import "variables";
+@import "mixins";
+
+.act {
+  background-color: $white;
+  .article_container {
+    background-color: $white;
+  }
+  .act_header {
+    background-image: url('../public/ws_act_header.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $mediumgreen;
+    overflow-x: hidden;
+    h1 {
+      @include headerBold;
+      padding: 8% 0;
+      @include mQ(1350px) {
+        padding: 100px 0;
+      }
+    }
+    .naturalist_header {
+      letter-spacing: 7px;
+    }
+  }
+}
+
+.monthly_checklist {
+  background: $mediumgreen;
+  padding-top: 100px;
+  @include mQ(750px) {
+    padding-top: 75px;
+    h1 {
+      font-size: 36px !important;
+    }
+    p {
+      font-size: 18px !important;
+      width: 94% !important;
+    }
+  }
+  .monthly_checklist_header {
+    text-align: center;
+    margin-bottom: 100px;
+    @include mQ(750px) {
+      margin-bottom: 50px;
+    }
+    h1 {
+      margin-top: -20px;
+      font-size: 48px;
+      font-family: $voltage;
+      font-weight: lighter;
+      color: $blue;
+    }
+    p {
+      font-size: 21px;
+      font-family: $raleway-regular;
+      color: $white;
+      width: 700px;
+      margin: auto;
+    }
+  }
+  .months {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 960px;
+    margin: auto;
+    @include mQ(1100px) {
+      width: 100%;
+    }
+    .month {
+      text-align: center;
+      width: 320px;
+      margin-bottom: 50px;
+      @include mQ(750px) {
+        margin-bottom: 25px;
+      }
+      h3 {
+        font-family: $raleway-bold;
+        color: $blue;
+        padding: 10px 0;
+      }
+      p {
+        font-family: $raleway-regular;
+        font-size: 18px;
+        color: $blue;
+        line-height: 2;
+      }
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.report {
+  margin: 50px 0;
+  text-align: center;
+  .report_image {
+    width: 960px;
+    img {
+      width: 100%;
+      max-width: 400px !important;
+    }
+  }
+}
+
+
+.volunteer {
+  overflow-x: hidden;
+  #act_flex {
+    width: 1200px !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    padding-top: 0 !important;
+    img {
+      max-width: 500px;
+    }
+    h3 {
+      font-family: $raleway-bold;
+      color: $blue;
+    }
+    @include mQ(1250px) {
+      width: 94% !important;
+      display: block;
+      img {
+        padding-bottom: 50px; 
+      }
+    }
+  }
+  #act_noFlex {
+    width: 1200px !important;
+    margin: auto;
+    padding-bottom: 0 !important;
+    @include mQ(1250px) {
+      width: 94% !important;
+    }
+  }
+  .volunteer_header {
+    background: $mediumgreen;
+    background-image: url("../public/restoration_sites/wayne_golf_course_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .volunteer_header_text {
+      padding: 288px 0;
+      @include mQ(1350px) {
+        padding: 150px 0;
+      }
+      @include mQ(575px) {
+        padding: 100px 0;
+      }
+      h1 {
+        @include headerBold;
+      }
+      h2 {
+        text-align: center;
+        font-family: $raleway-regular;
+        color: $white;
+        font-size: 32px;
+        text-shadow: 1px 1px 1px $blue;
+        @include mQ(1350px) {
+          font-size: 26px;
+        }
+        @include mQ(500px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+.perks {
+  .perk {
+    padding: 0 25px;
+    width: 320px;
+    text-align: center;
+    margin-bottom: 50px;
+    h3 {
+      font-family: $raleway-bold;
+      color: $blue;
+      padding: 10px 0;
+    }
+    p {
+      font-family: $raleway-regular;
+      font-size: 15px;
+      color: $blue;
+      line-height: 2;
+    }
+    img {
+      width: 100px;
+    }
+  }
+  .perks_top {
+    background: $mediumgreen;
+  }
+  .perks_top,
+  .perks_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    @include mQ(866px) {
+      .perk {
+        padding: 0 3%;
+        &:not(:last-child) {
+          padding-bottom: 50px;
+        }
+      }
+    }
+  }
+}

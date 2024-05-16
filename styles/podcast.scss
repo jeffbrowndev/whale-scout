@@ -1,0 +1,145 @@
+@import "variables";
+@import "mixins";
+
+// All podcasts styles
+.podcast_header {
+  background-image: url("/static/images/ws_podcast_header.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $mediumgreen;
+  margin-bottom: 50px;
+  overflow: hidden;
+  h1 {
+    @include headerBold;
+    padding: 8% 0;
+    @include mQ(1350px) {
+      padding: 100px 0;
+    }
+  }
+}
+// audio {
+//   width: 100% !important;
+// }
+.search_bar {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 50px;
+  input {
+    padding: 15px 10px 15px 0;
+    margin-left: 12.5px;
+    font-family: $raleway-regular;
+    font-size: 18px;
+    width: 480px;
+    border: none;
+    border-bottom: 1px solid $grey;
+    outline: none;
+  }
+  @include mQ(1275px) {
+    text-align: center;
+    input {
+      margin-left: 0;
+    }
+  }
+  @include mQ(550px) {
+    input {
+      width: 94%;
+    }
+  }
+}
+.podcast_cards {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  .no_match {
+    font-family: $voltage;
+    color: $blue;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  @include mQ(1275px) {
+    width: 94%;
+    justify-content: center;
+  }
+}
+
+// Single podcast page styles
+.podcast_content {
+  max-width: 960px;
+  font-family: $raleway-regular;
+  margin: 50px auto;
+  .podcast_player {
+    margin-bottom: 50px;
+  }
+  .podcast_back {
+    cursor: pointer;
+  }
+  .image_container {
+    text-align: center;
+    img {
+      max-width: 100%;
+      padding: 25px 0;
+    }
+  }
+  h1 {
+    font-size: 48px;
+    font-family: $voltage !important;
+    line-height: 1;
+    font-weight: lighter;
+    color: $blue;
+    margin-bottom: 50px;
+    text-align: left !important;
+  }
+  u {
+    text-align: left !important;
+    color: $blue;
+    cursor: pointer;
+  }
+  h2 {
+    color: $mediumgreen;
+    padding-top: 50px;
+    text-align: left !important;
+  }
+  p {
+    font-size: 18px;
+    line-height: 2;
+    color: $blue;
+    text-align: left !important;
+  }
+  figure {
+    text-align: center;
+    padding: 25px 0;
+    em,
+    figcaption {
+      color: $grey;
+      font-size: 14px;
+    }
+    img {
+      max-width: 100%;
+      padding-bottom: 0 !important;
+    }
+  }
+  @include mQ(1100px) {
+    padding: 50px 3%;
+    h1 {
+      font-size: 31px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+  @include mQ(1100px) {
+    padding: 0 3%;
+    h1 {
+      font-size: 31px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+}

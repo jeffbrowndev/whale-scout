@@ -1,0 +1,18 @@
+@import "variables";
+@import "mixins";
+
+.desktop_navigation {
+  z-index: 9999;
+  width: 100%;
+  background: $lightgreen;
+  text-align: center;
+  padding-top: 25px;
+  top: 0;
+  img {
+    width: 250px;
+    height: auto;
+  }
+  @include mQ(960px) {
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+@import "variables";
+@import "mixins";
+
+.event_slider_wrapper {
+  background: $blue;
+  padding: 35px 0;
+  h1 {
+    font-family: $voltage;
+    color: $yellow;
+    text-align: center;
+    font-size: 48px;
+    padding: 0 10px;
+    margin-bottom: 35px;
+  }
+  h2 {
+    color: $white;
+    font-family: $raleway-regular;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  @include mQ(1000px) {
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .event_slider {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    h1 {
+      color: $white;
+      font-family: $raleway-regular;
+      text-align: center;
+      font-size: 28px;
+      margin: auto;
+      padding: 50px 3%;
+      line-height: 1.25;
+    }
+    @include mQ(1250px) {
+      width: 94%;
+    }
+  }
+}

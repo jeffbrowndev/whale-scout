@@ -1,0 +1,212 @@
+@import './variables';
+@import './mixins';
+
+.home {
+  background: $mediumgreen;
+  .home_header {
+    width: 100%;
+    background: url('../public/header_photo.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+    h1 {
+      max-width: 1100px;
+      color: $white;
+      font-family: $raleway-regular;
+      font-size: 48px;
+      text-align: center;
+      span {
+        color: $lightgreen;
+      }
+    }
+    @include mQ($tablet) {
+      min-height: 600px;
+      h1 {
+        font-size: 42px;
+      }
+    }
+    @include mQ($mobile-large) {
+      h1 {
+        font-size: 36px;
+      }
+    }
+  }
+  // Sub-header
+  .sub_header {
+    background: $mediumgreen;
+    padding: $sectionpadding;
+    .whalescout_video {
+      max-width: 1200px;
+      margin: auto;
+      padding-top: 150px;
+      p {
+        text-align: center;
+        margin-top: 25px;
+      }
+      .video_wrapper {
+        cursor: pointer;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        // 16:9 aspect ratio
+        padding-bottom: 56.25%;
+        height: 0;
+        iframe {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+      }
+      @include mQ(1200px) {
+        padding-top: 75px;
+      }
+    }
+    h2 {
+      color: $blue;
+      font-weight: lighter;
+      font-family: $voltage;
+      font-size: 48px;
+      margin-bottom: $h2margin;
+    }
+    p {
+      color: $white;
+      font-family: $raleway-regular;
+      font-size: 21px;
+      line-height: 1.5;
+    }
+    img {
+      min-height: 250px;
+    }
+    .description {
+      max-width: 550px;
+    }
+    .what_we_do,
+    .you_can_help {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      img {
+        max-width: 490px;
+      }
+    }
+    .you_can_help {
+      padding-top: $spacer;
+      a {
+        margin: 0;
+        width: 200px;
+        color: $white;
+        text-decoration: none;
+      }
+    }
+    @include mQ($tablet) {
+      padding: $sectionpaddingmobile;
+      .what_we_do,
+      .you_can_help {
+        display: block;
+        .description {
+          margin: auto;
+          text-align: center;
+        }
+        img:first-child {
+          display: none;
+        }
+        img:last-child {
+          max-width: 100%;
+          padding-top: $spacermobile;
+        }
+      }
+      .you_can_help {
+        padding-top: $spacermobile;
+      }
+    }
+    @include mQ(600px) {
+      h2 {
+        font-size: 36px;
+      }
+    }
+  }
+}
+.home_footer_image {
+  background: $mediumgreen;
+  margin-bottom: -10px;
+  width: 100%;
+  height: auto;
+}
+
+// Media section
+.home_news_and_podcasts {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 100px;
+  .see_all_mobile {
+    font-family: $raleway-regular;
+    cursor: pointer;
+    display: none;
+  }
+  u,
+  p,
+  h3 {
+    color: $blue;
+  }
+  p {
+    font-family: $raleway-regular;
+    cursor: pointer;
+  }
+  .recent_header {
+    margin-top: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    u {
+      font-family: $raleway-regular;
+      cursor: pointer;
+    }
+    h3 {
+      font-family: $voltage;
+      font-weight: lighter;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 1;
+      margin-bottom: 25px;
+    }
+    @include mQ(600px) {
+      h3 {
+        margin: 0 auto 15px;
+      }
+    }
+  }
+
+  .recent_podcasts {
+    display: flex;
+    justify-content: center;
+    @include mQ(900px) {
+      .podcast_card {
+        margin: 0 7.5px 15px;
+      }
+    }
+    @include mQ(500px) {
+      .podcast_card {
+        margin: 0 0 15px;
+      }
+    }
+    @include mQ(1250px) {
+      flex-wrap: wrap;
+    }
+  }
+  @include mQ(1250px) {
+    width: 94%;
+  }
+  @include mQ(600px) {
+    text-align: center;
+    .see_all_mobile {
+      display: block;
+    }
+  }
+}

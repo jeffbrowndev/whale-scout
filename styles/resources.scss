@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'mixins';
+
+.resources_header {
+  background-image: url('/static/images/ws_resources_header.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $mediumgreen;
+  margin-bottom: 50px;
+  overflow-x: hidden;
+  h1 {
+    @include headerBold;
+    padding: 8% 0;
+    @include mQ(1350px) {
+      padding: 100px 0;
+    }
+  }
+  .background_container {
+    position: fixed;
+  }
+}
+
+.resource {
+  padding-bottom: 15px;
+}
+
+.resource_container {
+  padding-bottom: 25px;
+}

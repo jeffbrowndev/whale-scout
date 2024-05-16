@@ -1,0 +1,134 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: $blue;
+  color: $white;
+  font-family: $raleway-extrabold;
+}
+
+.main_button {
+  cursor: pointer;
+  border: none;
+  min-width: 225px;
+  text-align: center;
+  color: $white;
+  background: $blue;
+  font-family: $raleway-extrabold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 50px;
+  margin-top: 25px;
+  margin-right: 25px;
+  transition: $fast;
+  &:hover {
+    background: $darkgreen;
+  }
+  @include mQ(1200px) {
+    margin: 25px 12.5px 0 12.5px;
+  }
+}
+.line {
+  width: 75px;
+  height: 2px;
+  background: $red;
+  margin: 15px 0 25px;
+  border-radius: 2px;
+}
+a {
+  text-decoration-color: $blue;
+}
+
+// All Article Styles
+.article_container {
+  padding: 50px 0;
+  width: 100% !important;
+  text-align: center;
+  img {
+    width: 100%;
+    margin-top: 25px;
+    max-width: 960px;
+  }
+  .image_caption {
+    font-family: $raleway-regular;
+    color: $grey;
+    margin: 5px auto 34px;
+    font-size: 14px;
+    width: 94%;
+    max-width: 960px;
+  }
+}
+.article_section {
+  text-align: left;
+  margin: auto;
+  @include mQ(1150px) {
+    width: 94%;
+    h1 {
+      font-size: 36px !important;
+    }
+  }
+  h1 {
+    line-height: 1;
+    font-family: $voltage;
+    font-weight: lighter;
+    color: $blue;
+    font-size: 48px;
+    padding-bottom: 10px;
+  }
+  h3 {
+    font-family: $raleway-bold;
+    color: $blue;
+    padding-bottom: 20px;
+  }
+  h4 {
+    color: $lightgreen;
+    font-family: $raleway-bold;
+    line-height: 2;
+    font-size: 18px;
+  }
+  p {
+    font-family: $raleway-regular;
+    line-height: 2;
+    font-size: 18px;
+    color: $blue;
+    padding-bottom: 20px;
+  }
+  .check {
+    width: 15px;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+}
+
+.triangle_down {
+  width: 150px;
+  margin: 25px auto;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 20px solid $mediumgreen;
+}
+.triangle_right {
+  height: 75px;
+  border-bottom: 36.5px solid transparent;
+  border-top: 36.5px solid transparent;
+  border-left: 10px solid $white;
+  margin-right: 25px;
+}
+
+.react-multi-carousel-list {
+  justify-content: center;
+}

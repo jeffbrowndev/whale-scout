@@ -1,0 +1,115 @@
+@import "variables";
+@import "mixins";
+
+.member {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 50px 0;
+  max-width: 1200px;
+  @include mQ(1350px) {
+    display: block;
+    &:nth-child(even) {
+      .team_about {
+        padding: 0 3% !important;
+      }
+    }
+  }
+  @include mQ(500px) {
+    padding: 0 0 50px;
+  }
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    .team_about {
+      padding-left: 0;
+      padding-right: 5%;
+    }
+  }
+  .team_image {
+    align-self: center;
+    position: relative;
+    width: 40%;
+    margin: auto;
+    @include mQ(1350px) {
+      width: 400px;
+      margin-bottom: 20px;
+    }
+    @include mQ(500px) {
+      width: 80%;
+    }
+    img {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    .square {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-100%) rotate(3deg);
+    }
+  }
+  .team_about {
+    width: 60%;
+    margin: auto;
+    padding-left: 5%;
+    align-self: center;
+    @include mQ(1350px) {
+      width: 100%;
+      padding: 0 3%;
+      p {
+        width: 660px;
+        margin: auto;
+      }
+    }
+    @include mQ(750px) {
+      p {
+        width: 100%;
+      }
+    }
+    @include mQ(500px) {
+      h1 {
+        font-size: 36px !important;
+      }
+      h2 {
+        font-size: 18px !important;
+      }
+      h3 {
+        font-size: 14px !important;
+      }
+    }
+    h1,
+    h2,
+    h3,
+    p {
+      text-align: center;
+    }
+    h1 {
+      font-family: $voltage;
+      font-weight: lighter;
+      color: $blue;
+      font-size: 48px;
+    }
+    h2,
+    h3 {
+      font-family: $raleway-regular;
+      color: $mediumgreen;
+      padding-top: 5px;
+    }
+    h2 {
+      padding-top: 10px;
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+    p {
+      font-family: $raleway-regular;
+      color: $blue;
+      line-height: 2;
+      font-size: 18px;
+    }
+  }
+}

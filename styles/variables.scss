@@ -1,0 +1,59 @@
+// Import fonts
+@font-face {
+  font-family: "volt";
+  src: url("../public/fonts/Voltage Bold.otf");
+}
+@font-face {
+  font-family: "raleway-extrabold";
+  src: url("../public/fonts/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "raleway-black";
+  src: url("../public/fonts/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: "raleway-light";
+  src: url("../public/fonts/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "raleway-regular";
+  src: url("../public/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "raleway-bold";
+  src: url("../public/fonts/Raleway-Bold.ttf");
+}
+
+// Fonts
+$voltage: "volt", sans-serif;
+$raleway-extrabold: "raleway-extrabold";
+$raleway-bold: "raleway-bold";
+$raleway-light: "raleway-light";
+$raleway-regular: "raleway-regular";
+$raleway-black: "raleway-black";
+
+// Colors
+$blue: #032c4a;
+$lightgreen: #a6d5cd;
+$mediumgreen: #96cec4;
+$darkgreen: #58aa9c;
+$white: white;
+$yellow: #e9df81;
+$red: #e1251c;
+$grey: rgb(173, 173, 173);
+
+// Transitions
+$fast: 0.1s;
+$slow: 0.25s;
+
+// Breakpoints
+$tablet: 1200px;
+$mobile-large: 960px;
+$mobile-small: 450px;
+
+// Global padding/margins
+$spacer: 150px;
+$spacermobile: 75px;
+$sectionpadding: 150px 3%;
+$sectionpaddingmobile: 75px 3%;
+$h2margin: 25px;

@@ -1,0 +1,59 @@
+@mixin mQ($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+@mixin mQmin($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+@mixin headerBold {
+  text-shadow: 1px 1px 1px $blue;
+  font-size: 75px;
+  font-family: $raleway-black;
+  text-align: center;
+  color: white;
+  letter-spacing: 15px;
+  position: relative;
+  z-index: 10;
+  transform: translateX(7.5px);
+  @include mQ(1350px) {
+    font-size: 54px;
+  }
+  @include mQ(500px) {
+    font-size: 42px;
+    letter-spacing: 8px;
+    transform: translateX(4px);
+  }
+  @include mQ(375px) {
+    font-size: 42px;
+    letter-spacing: 6px;
+    transform: translateX(3px);
+  }
+}
+
+@mixin Ellipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: $lineHeight * $lineCount;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: $bgColor;
+  }
+}

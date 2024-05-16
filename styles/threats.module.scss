@@ -1,0 +1,72 @@
+@import "variables";
+@import "mixins";
+
+.threats {
+  .threats_header {
+    width: 94%;
+    margin: auto;
+    h1 {
+      color: $red;
+      font-family: $voltage;
+      font-weight: lighter;
+      font-size: 48px;
+    }
+    p {
+      color: $blue;
+      font-family: $raleway-bold;
+    }
+  }
+  .threats_top {
+    padding: 75px 0;
+    background: $lightgreen;
+    text-align: center;
+    img {
+      padding-top: 50px;
+      width: 94%;
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
+  .threats_middle,
+  .threats_bottom {
+    padding-top: 75px;
+    background: $mediumgreen;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    img {
+      width: 2560px;
+      padding-top: 50px;
+      margin-left: 50%;
+      margin-bottom: -10px;
+      transform: translateX(-50%);
+    }
+  }
+  .threats_bottom {
+    background: $lightgreen;
+  }
+  @include mQ(1300px) {
+    .threats_middle,
+    .threats_bottom {
+      img {
+        width: 200%;
+      }
+    }
+  }
+  @include mQ(500px) {
+    .threats_header {
+      h1 {
+        font-size: 36px;
+      }
+    }
+  }
+  @include mQ(500px) {
+    .threats_top {
+      padding: 50px 0;
+    }
+    .threats_middle,
+    .threats_bottom {
+      padding-top: 50px;
+    }
+  }
+}
