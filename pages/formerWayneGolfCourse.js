@@ -3,7 +3,6 @@ import styles from '@/styles/restorationSites.module.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 import Carousel from "react-multi-carousel";
-import Image from "next/image";
 
 const responsive = {
   desktop: {
