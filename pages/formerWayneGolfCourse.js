@@ -3,20 +3,21 @@ import styles from '@/styles/restorationSites.module.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
+  desktopLarge: {
+    breakpoint: { max: 3000, min: 1250 },
     items: 3,
     slidesToSlide: 1
   },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
+  desktopSmall: {
+    breakpoint: { max: 1250, min: 675 },
     items: 2,
     slidesToSlide: 1
   },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
+  mobileAndTablet: {
+    breakpoint: { max: 875, min: 0 },
     items: 1,
     slidesToSlide: 1
   }
@@ -72,8 +73,9 @@ const FormerWayneGolfCourse = () => {
         </div>
         <div style={{paddingTop: "50px"}}></div>
         <Carousel
+          swipeable={false}
+          draggable={false}
           responsive={responsive}
-          ssr={true}
           infinite={true}>
             <img style={{width: "100%"}} src="/restoration_sites/slide1.jpg" />
             <img style={{width: "100%"}} src="/restoration_sites/slide2.jpg" />
@@ -97,8 +99,9 @@ const FormerWayneGolfCourse = () => {
               taking place on the east side of the park, led by the City of Bothell.
               <br />
               <br />
-              Follow our illustrated journal of restoration work <Link href="https://www.whalescout.org/article?slug=former-wayne-golf-course-riparian-restoration">here</Link>.
+              
             </p>
+            <h3>Follow our illustrated journal of restoration work <Link href="https://www.whalescout.org/article?slug=former-wayne-golf-course-riparian-restoration">here</Link>.</h3>
           </div>
         </div>
       </div>
