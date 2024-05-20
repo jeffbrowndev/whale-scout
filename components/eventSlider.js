@@ -4,29 +4,29 @@ import Event from './event';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const responsive = {
-  desktopLarge: {
-    breakpoint: { max: 3000, min: 1250 },
-    items: 3,
-    slidesToSlide: 1
-  },
-  desktopSmall: {
-    breakpoint: { max: 1250, min: 675 },
-    items: 2,
-    slidesToSlide: 1
-  },
-  mobileAndTablet: {
-    breakpoint: { max: 875, min: 0 },
-    items: 1,
-    slidesToSlide: 1
-  }
-};
-
 const EventSlider = (props) => {
   if (props.events.length > 0) {
     props.events.sort((a, b) => {
       return new Date(a.acf.date) - new Date(b.acf.date);
     });
+
+    const desktopSlides = () => {
+      if (props.events.length > 3) 
+      {
+        return 3;
+      }
+
+      return props.events.length;
+    }
+
+    const desktopSmallSlides = () => {
+      if (props.events.length > 2) 
+      {
+        return 2;
+      }
+
+      return 1;
+    }
 
     return (
       <div className={styles.event_slider_wrapper}>
@@ -35,9 +35,26 @@ const EventSlider = (props) => {
           <Carousel
             swipeable={false}
             draggable={false}
-            responsive={responsive}
+            responsive={{
+              desktopLarge: {
+                breakpoint: { max: 3000, min: 1250 },
+                items: desktopSlides(),
+                slidesToSlide: 1
+              },
+              desktopSmall: {
+                breakpoint: { max: 1250, min: 675 },
+                items: desktopSmallSlides(),
+                slidesToSlide: 1
+              },
+              mobileAndTablet: {
+                breakpoint: { max: 875, min: 0 },
+                items: 1,
+                slidesToSlide: 1
+              }
+            }}
             ssr={true}
-            infinite={true}>
+            infinite={true}
+            containerClass='event_slider'>
             {props.events.map(event => {
               return (
                 <Event

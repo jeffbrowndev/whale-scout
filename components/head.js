@@ -19,11 +19,6 @@ const Header = () => {
         type='text/css'
         href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
       />
-      <link
-        rel='stylesheet'
-        type='text/css'
-        href='/static/react-big-calendar.css'
-      />
     </Head>
   );
 };

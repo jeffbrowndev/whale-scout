@@ -72,18 +72,20 @@ const FormerWayneGolfCourse = () => {
           </div>
         </div>
         <div style={{paddingTop: "50px"}}></div>
-        <Carousel
-          swipeable={false}
-          draggable={false}
-          responsive={responsive}
-          infinite={true}>
-            <img style={{width: "100%"}} src="/restoration_sites/slide1.jpg" />
-            <img style={{width: "100%"}} src="/restoration_sites/slide2.jpg" />
-            <img style={{width: "100%"}} src="/restoration_sites/slide6.jpg" />
-            <img style={{width: "100%"}} src="/restoration_sites/slide3.jpg" />
-            <img style={{width: "100%"}} src="/restoration_sites/slide4.jpg" />
-            <img style={{width: "100%"}} src="/restoration_sites/slide5.jpg" />
-        </Carousel>
+        <div className={styles.restoration_slider}>
+          <Carousel
+            responsive={responsive}
+            swipeable={false}
+            draggable={false}
+            infinite={true}>
+              <img style={{width: "100%"}} src="restoration_sites/slide1.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/slide2.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/slide6.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/slide3.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/slide4.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/slide5.jpg" />
+          </Carousel>
+        </div>
         <div style={{paddingTop: "50px"}}></div>
         <div className="article_container" id={styles.act_noFlex}>
           <div className="article_section">
