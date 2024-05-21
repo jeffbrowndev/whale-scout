@@ -27,14 +27,14 @@ const FormerWayneGolfCourse = () => {
   return (
     <Layout>
       <div className={styles.volunteer}>
-        <div className={styles.volunteer_header}>
+        <div className={styles.golf_course_header}>
           <ScrollAnimation animateIn='fadeIn'>
             <div className={styles.volunteer_header_text}>
               <h1>FORMER WAYNE GOLF&nbsp;COURSE</h1>
             </div>
           </ScrollAnimation>
         </div>
-        <div style={{paddingTop: "100px"}}></div>
+        <div className={styles.spacer}></div>
         <div className="article_container" id={styles.act_flex}>
           <div className="article_section">
             <h1>Project Background</h1>
@@ -51,11 +51,9 @@ const FormerWayneGolfCourse = () => {
               and King County, it was purchased at the end of 2017 by the <Link target="_blank" href="https://www.bothellwa.gov/">City of Bothell</Link>. Today, this land is Bothell’s largest park. 
             </p>
           </div>
-          <img src="restoration_sites/wayne_top_view.jpg" />
+          <img src="restoration_sites/golf_course/wayne_top_view.jpg" />
         </div>
-        <div style={{paddingTop: "25px"}}></div>
         <div className="article_container" id={styles.act_flex}>
-          <img src="restoration_sites/wayne_gate.jpg" />
           <div className="article_section">
             <h1>Project Goals</h1>
             <div className="line" />
@@ -71,22 +69,21 @@ const FormerWayneGolfCourse = () => {
             </p>
           </div>
         </div>
-        <div style={{paddingTop: "50px"}}></div>
         <div className={styles.restoration_slider}>
           <Carousel
             responsive={responsive}
             swipeable={false}
             draggable={false}
             infinite={true}>
-              <img style={{width: "100%"}} src="restoration_sites/slide1.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/slide2.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/slide6.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/slide3.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/slide4.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/slide5.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide1.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide2.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide6.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide3.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide4.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide5.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/golf_course/slide7.jpg" />
           </Carousel>
         </div>
-        <div style={{paddingTop: "50px"}}></div>
         <div className="article_container" id={styles.act_noFlex}>
           <div className="article_section">
             <h1>What's your "why"?</h1>

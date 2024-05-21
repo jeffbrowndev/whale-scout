@@ -140,9 +140,8 @@
       width: 94% !important;
     }
   }
-  .volunteer_header {
+  .golf_course_header, .bear_creek_header {
     background: $mediumgreen;
-    background-image: url("../public/restoration_sites/wayne_golf_course_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,6 +170,12 @@
         }
       }
     }
+  }
+  .golf_course_header {
+    background-image: url("../public/restoration_sites/golf_course/wayne_golf_course_header.jpg");
+  }
+  .bear_creek_header {
+    background-image: url("../public/restoration_sites/bear_creek/bear_creek_header.jpg");
   }
 }
 
@@ -212,5 +217,16 @@
         }
       }
     }
+  }
+}
+
+.restoration_slider {
+  margin: 50px 0 25px 0;
+}
+
+.spacer {
+  padding-top: 100px;
+  @include mQ(960px) {
+    padding-top: 50px;
   }
 }
