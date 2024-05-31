@@ -59,7 +59,7 @@ const FormerWayneGolfCourse = () => {
             <div className="line" />
             <p>
               Whale Scout is engaging the community to restore critical riparian habitat at the new park, removing 
-              invasive plants including Himalayan blackberries and English Ivy, and replacing them with native trees. 
+              invasive plants including Himalayan blackberries and English ivy, and replacing them with native trees. 
               The long-term goal is to improve water quality by increasing tree canopy cover, shading the water and improving ecological function. 
               This habitat benefits threatened Puget Sound salmon, whose numbers are currently at less than 10% of their historical peak. 
               Restoration also benefits Southern Resident Killer Whales, a critically-endangered community of less than 75 orcas, who rely 
@@ -67,6 +67,11 @@ const FormerWayneGolfCourse = () => {
               there are so many more. Restoration also helps birds, pollinators, and reptiles, addresses climate change, and increases access 
               to public land and recreation, improving both physical and mental health in the community. 
             </p>
+          </div>
+        </div>
+        <div className={styles.whalescout_video}>
+          <div className={styles.video_wrapper}>
+            <iframe src="https://player.vimeo.com/video/863406716?h=bb2b1d5fff" width="560" height="315" allowfullscreen></iframe>
           </div>
         </div>
         <div className={styles.restoration_slider}>

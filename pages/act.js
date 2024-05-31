@@ -23,7 +23,7 @@ const Act = props => (
       <div className={styles.volunteer_header}>
         <ScrollAnimation animateIn='fadeIn'>
           <div className={styles.volunteer_header_text}>
-            <h1>RESTORE HABITAT</h1>
+            <h1>VOLUNTEER</h1>
             <h2>Anyone can help!</h2>
           </div>
         </ScrollAnimation>

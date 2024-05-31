@@ -78,12 +78,14 @@ const BearCreek = () => {
             draggable={false}
             infinite={true}>
               <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide1.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide6.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide7.jpg" />
               <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide3.jpg" />
               <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide4.jpg" />
               <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide5.jpg" />
-              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide7.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide6.jpg" />
               <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide2.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide8.jpg" />
+              <img style={{width: "100%"}} src="restoration_sites/bear_creek/slide9.jpg" />
           </Carousel>
         </div>
         <div className="article_container" id={styles.act_noFlex}>

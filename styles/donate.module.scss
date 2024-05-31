@@ -1,0 +1,44 @@
+@import "variables";
+@import "mixins";
+
+.donate {
+  padding-top: 75px;
+  width: 960px;
+  margin: auto;
+  .donate_options {
+    display: flex;
+    justify-content: space-evenly;
+    h2 {
+      font-family: $raleway-bold;
+      margin-bottom: 25px;
+    }
+    .payment_services {
+      .icon_row {
+        display: flex;
+        gap: 25px;
+      }
+    }
+    .address {
+      p {
+        font-size: 20px;
+        font-family: $raleway-regular
+      }
+    }
+    @include mQ(1050px) {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+      .payment_services .icon_row {
+        justify-content: center;
+      }
+      .address p {
+        text-align: center;
+      }
+    }
+  }
+  @include mQ(1050px) {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 94%;
+  }
+}

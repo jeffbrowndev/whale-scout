@@ -230,3 +230,29 @@
     padding-top: 50px;
   }
 }
+
+.whalescout_video {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 50px;
+  p {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .video_wrapper {
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    // 16:9 aspect ratio
+    padding-bottom: 56.25%;
+    height: 0;
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+  }
+}

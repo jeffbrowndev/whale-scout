@@ -32,7 +32,7 @@ const MobileNavigation = () =>  {
                 className={styles.about_label}
               />
               <label htmlFor="about_label">
-                VOLUNTEER
+                GET INVOLVED
                 <FontAwesomeIcon
                   icon={faSortDown}
                   className={styles.icon}
@@ -43,13 +43,16 @@ const MobileNavigation = () =>  {
                   <li>INTERNSHIPS</li>
                 </Link>
                 <Link href="/act">
-                  <li>RESTORE HABITAT</li>
+                  <li>VOLUNTEER</li>
                 </Link>
                 <Link href="/orcaHero">
                     <li>BE AN #ORCAHERO</li>
                 </Link>
                 <Link href="https://www.podmatch.org/" target="_blank">
                     <li>PODMATCH</li>
+                </Link>
+                <Link href="/donate">
+                  <li>DONATE</li>
                 </Link>
               </ul>
             </li>

@@ -90,19 +90,8 @@ const Learn = () => (
               the Salish Sea: Offshore killer whales. Rarely seen, these whales
               are thought to eat mostly sharks, and as a result have worn-down
               teeth from the rough skin.
-            </p>
-          </div>
-        </div>
-        {/* <Composition />
-        <p className={styles.composition_caption}>
-          Data from the Center for{' '}
-          <a target='_blank' href='https://www.whaleresearch.com/'>
-            Whale Research
-          </a>
-        </p> */}
-        <div className="article_container">
-          <div className="article_section">
-            <p>
+              <br />
+              <br />
               Over the last 150 years, Europeans developed the Salish Sea
               watershed for large-scale human habitation. We didn’t understand how
               our actions would alter the life of the majestic forest and sea
@@ -123,9 +112,8 @@ const Learn = () => (
               and separate and remove the calves to be sold for captivity. It is
               unknown exactly how many whales were taken, but federal estimates
               put the number at around 50 individuals—mainly Southern Resident J
-              and L pod individuals. Only one of the captured Southern Residents,
-              named "Lolita" from L pod, is alive today; she is currently on
-              display at the Miami Seaquarium.
+              and L pod individuals. The last living captured Southern Resident orca named, 
+              "Lolita" passed away in 2023 at the Miami Seaquarium at the age of 57.
             </p>
           </div>
           <img
@@ -204,8 +192,7 @@ const Learn = () => (
               entering our waterways. We offer{' '}
               <Link href='/act#months'>suggestions</Link> each month to become
               better stewards of the environment, which add up to help the whales.
-              Our “Helpin’ Out” events also limit toxins from entering our
-              waterways through the natural treatment of stormwater runoff. At
+              Our volunteer events also limit toxins from entering our waterways through the natural treatment of stormwater runoff. At
               these events we plant trees and work to restore ecological function
               along salmon rivers, streams, and nearshore habitats. This provides
               salmon more places to live, spawn, and thrive. The more salmon there
@@ -239,12 +226,11 @@ const Learn = () => (
             </h1>
             <div className="line" />
             <p>
-              A significant amount of time spent at volunteer work parties or our
-              "Helpin' Out" events involves restoring the "riparian zone," or
-              vegetation immediately along salmon rivers and streams. You may ask,
-              “Why is this important, and how does it help?” Well, with the help
-              of our friends at the Skagit Fisheries Enhancement Group, we came up
-              with a fun way to remember: 6 C's Thanks to Trees!
+            A significant amount of time spent at volunteer work parties involves restoring the 
+            "riparian zone," or vegetation immediately along salmon rivers and streams. You may ask,
+            “Why is this important, and how does it help?” Well, with the help
+            of our friends at the Skagit Fisheries Enhancement Group, we came up
+            with a fun way to remember: 6 C's Thanks to Trees!
             </p>
             <br />
             <p>
@@ -253,46 +239,34 @@ const Learn = () => (
             </p>
             <br />
             <p>
-              <strong>Cool </strong>- Trees shade the water, keeping it cool in
+              <h3>Cool</h3>Trees shade the water, keeping it cool in
               warm months
             </p>
-            <br />
             <p>
-              <strong>Clean </strong>- Vegetation and root systems filter toxins
+              <h3>Clean</h3>Vegetation and root systems filter toxins
               in rain runoff before entering into waterways
             </p>
-            <br />
             <p>
-              <strong>Clear </strong>- Complex root systems hold the banks of
+              <h3>Clear</h3>Complex root systems hold the banks of
               rivers and streams, preventing erosion which can smother salmon eggs
             </p>
-            <br />
             <p>
-              <strong>Constant </strong>- Consistently flowing waters are critical
+              <h3>Constant</h3>Consistently flowing waters are critical
               for salmon. Rushes and low drops in water levels don’t allow fish to
               move where they need to go or can scour out eggs embedded in
               streambeds. Rain is slowed down by tree branches and is stored in
               the ground beneath trees to slowly be released into the main
               channel.
             </p>
-            <br />
             <p>
-              <strong>Critters </strong>- The tiny bugs that baby salmon need to
+              <h3>Critters</h3>The tiny bugs that baby salmon need to
               eat live on native vegetation. This gives the orca’s food’s food a
               place to thrive!
             </p>
-            <br />
             <p>
-              <strong>Cover </strong>- Towering trees and fallen logs offer adult
+              <h3>Cover</h3>Towering trees and fallen logs offer adult
               migrating salmon some protection and refuge from predators such as
               birds who may be lurking above.
-            </p>
-            <br />
-            <p>
-              Many of our Helpin' Out events are supported by The Nature
-              Conservancy. Planting trees in our cities helps our orcas because of
-              the reasons above and to specifically reduce toxic stormwater which
-              is harmful for salmon, orcas, and all of us.
             </p>
           </div>
           <img

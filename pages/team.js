@@ -104,14 +104,14 @@ const Laurie = new TeamMember(
   'Laurie Gogic',
   'Bear Creek Riparian Restoration Lead',
   '',
-  'Native of the Pacific Northwest, Laurie grew up in Kirkland, graduated with a MED from the University of Washington and went on to teach ESL (English as a Second Language) for Lake Washington School District. Now retired, after a 37 year teaching career, Laurie focus her energy on helping the Southern Resident Killer Whales in any way possible. She’s been a Whale Scout member for five years, is a Forest Steward at Idylwood Park is a water quality monitor for SnoKing Watershed Council. Laurie also volunteers on the Soundwatch Education boat, sponsored by The Whale Museum. Laurie believes that education is KEY to helping the whales and jumps at the chance to talk with kids as well as adults about what they can do to help. She also loves organizing restoration work parties along salmon spawning streams and field trips to the Elwha River.',
+  'Native of the Pacific Northwest, Laurie grew up in Kirkland, graduated with a MED from the University of Washington and went on to teach ESL (English as a Second Language) for Lake Washington School District. Now retired, after a 37 year teaching career, Laurie focus her energy on helping the Southern Resident Killer Whales in any way possible. She’s been with Whale Scout since 2014, is a Forest Steward at Idylwood Park and a water quality monitor for SnoKing Watershed Council. Laurie also volunteers on the Soundwatch Education boat, sponsored by The Whale Museum. Laurie believes that education is KEY to helping the whales and jumps at the chance to talk with kids as well as adults about what they can do to help. She also loves organizing restoration work parties along salmon spawning streams and field trips to the Elwha River.',
   `https://admin.whalescout.org/wp-content/uploads/2019/05/laurie.jpg`,
   red
 );
 
 const Rachael = new TeamMember(
   'Rachael Kutz',
-  'Student and Intern Mentor/Coordinator',
+  'Student and Community Education Coordinator',
   'rachaelk@whalescout.org',
   "Rachael is a 2020 college graduate with a BS in biology and animal sciences from George Fox University. Her original career goal was to become a wildlife veterinarian. After working in countless hospitals she found that it was no longer her passion. She realized her true passion was to care for wildlife anyway she could through means of conservation and habitat restoration. Not a born and raised Washingtonian, but rather with roots in both Southern California and Oregon, she's brought a deep appreciation for the people and the nature that makes up this beautiful state. Ever since a child, she would visit Seattle in hopes to one day live here. Now that she's accomplished that dream she wants to do everything in her power to protect the wildlife here, both land and sea. Although she hasn't been in the world of ecology and environmental science long, she has loved learning and now teaching others the tremendous importance of orca conservation. When not out with Whale Scout she’s volunteering at the Seattle Aquarium, baking, painting, snowboarding, or caring for nearly 60 house plants!",
   `rachael.jpg`,
@@ -186,7 +186,7 @@ export default () => (
           <li>Orca Salmon Alliance</li>
           <li>Orca Watcher Photography</li>
           <li>The Rose Foundation</li>
-          <li>Ross Family</li>
+          <li>Stowe Family</li>
           <li>Salish SEA</li>
           <li>San Juan County Land Bank</li>
         </ul>
@@ -194,7 +194,8 @@ export default () => (
           <li>Seattle Aquarium</li>
           <li>Skagit Fisheries Enhancement Group</li>
           <li>Tulialip Tribes</li>
-          <li>Washington Department of Fish and Wildlife</li>
+          <li>WA Department of Fish and Wildlife</li>
+          <li>WA Department of Natural Resources</li>
           <li>WRIA 8</li>
           <li>The Whale Museum</li>
         </ul>

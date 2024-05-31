@@ -42,6 +42,9 @@ const Footer = (props) => {
             </div>
             <div className={styles.site_map_column}>
               <ul>
+                <Link href="/donate">
+                  <li className={styles.bold}>DONATE</li>
+                </Link>
                 <Link href="/blog">
                   <li className={styles.bold}>BLOG</li>
                 </Link>
@@ -54,15 +57,6 @@ const Footer = (props) => {
                 <Link href="/contact">
                   <li className={styles.bold}>CONTACT</li>
                 </Link>
-                <a
-                  href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
-                  target="_blank"
-                >
-                  <li className={styles.bold}>DONATE</li>
-                </a>
-                {/* <Link href="/podcasts">
-                  <li className={styles.bold}>PODCAST</li>
-                </Link> */}
               </ul>
             </div>
           </div>
