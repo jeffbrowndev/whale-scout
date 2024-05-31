@@ -43,7 +43,7 @@ const FormerWayneGolfCourse = () => {
               Since 2019, Whale Scout has been working in partnership with <Link target="_blank" href="https://www.bothellwa.gov/249/Parks-Recreation">Bothell Parks and Recreation</Link> to 
               help restore habitat at the Former Wayne Golf Course.  The  89-acre property is located along 
               the Sammamish River near highway 522 in Bothell, WA.  At the time of Euro-American settlement, 
-              members of the Duwamish Tribe hunted and traveled along the river.  Beginning in the 1870s and 
+              members of the Coast Salish People hunted and traveled along the river. Beginning in the 1870s and 
               continuing until around the turn of the century, the area was logged and transitioned into agricultural use. 
               In 1931, the golf course opened and remained a popular destination for local residents throughout the 
               20th century. In 2014, the owners announced that the Wayne Golf Course was shutting down, and the land was slated for development. 

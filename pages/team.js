@@ -159,6 +159,18 @@ export default () => (
         />
       ))}
     </div>
+    <div className={styles.overview}>
+      <h3>Fostering Inclusive Environmental Action</h3>
+      <p>
+        Whale Scout's intention is to be an inclusive, diverse, 
+        and collaborative organization that contributes to equitable 
+        opportunities for all to have a voice and take meaningful 
+        action on behalf of the environment. We strive to serve and 
+        reflect our region's diversity while honoring and being 
+        informed by the knowledge and traditions of its first stewards, 
+        the Coast Salish people.
+      </p>
+    </div>
     <div className={styles.team_footer}>
       <h1>Meet Our Partners</h1>
       <div className={styles.line} />
