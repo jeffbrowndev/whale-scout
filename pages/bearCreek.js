@@ -40,10 +40,10 @@ const BearCreek = () => {
             <h1>Project Background</h1>
             <div className="line" />
             <p>
-              Whale Scout has been working on restoring a private property along the banks of Bear Creek in Redmond, Wa since fall of 2019. 
+              Whale Scout has been working on restoring a private property along the banks of Bear Creek in Redmond, WA, since fall of 2019. 
               This property has been owned by the same family since 1930 and previously was used as a hunting, fishing, and gathering ground 
               by the Coast Salish people. At the time of the family’s purchase, the property had just recently been logged and there were very 
-              few trees remaining. Over the years the land went from a grassy field to dense thickets of Himalayan blackberry bushes, reed 
+              few trees remaining. Over the years, the land went from a grassy field to dense thickets of Himalayan blackberry bushes, reed 
               canary grass, creeping buttercup, morning glory and groves of willow trees. Supported by a grant from The Nature Conservancy, 
               Whale Scout  organized volunteer community restoration work parties to diligently remove the blackberry bushes (root balls and all!!!) 
               and other invasives. As areas were cleared of these invasives, native trees, shrubs and groundcovers were planted. 

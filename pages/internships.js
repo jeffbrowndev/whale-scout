@@ -78,7 +78,7 @@ const Internships = () => (
                 <FontAwesomeIcon icon={faCheck} className="check" />Certification in water quality monitoring with broad applications in environmental fields
                 <br></br>
                 <br></br>
-                Upon successful completion of internship, we can provide letters of recommendation for 
+                Upon successful completion of the internship, we can provide letters of recommendation for 
                 future positions or educational advancement. Internships may also include opportunities 
                 to participate in a field trip to San Juan Island or other locations. 
               </p>

@@ -59,7 +59,7 @@ const Watch = () => (
             <div className="article_section">
               <h3>Special Events</h3>
               <p>
-                Annual events where you can meet naturalists on the beach include Black Friday, or #OptOutside Day, and weekends in June celebrating Orca Month!
+                Annual events where you can meet naturalists on the beach include Black Friday, or #OptOutside Day, and weekends in June celebrating Orca Action Month!
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Watch = () => (
             <h3>What To Look For</h3>
             <p>
               Our volunteers can be recognized by their distinctive blue Whale Scout vests. 
-              Feel free to ask them for help spotting wildlife or for more information
+              Feel free to ask them for help spotting wildlife or for more information.
             </p>
           </div>
           <div className="article_section">

@@ -33,7 +33,7 @@ const Learn = () => (
               retreated further south during the last ice age re-expanded north to
               newly created spawning habitat. For the last 13,000 years, the
               clean, covered, nutritive cold water with smooth rocks to shelter
-              fertilized eggs allowed these fish to thrive.
+              fertilized eggs has allowed these fish to thrive.
             </p>
           </div>
           <img
@@ -131,7 +131,7 @@ const Learn = () => (
               was later outlawed in the state of Washington. As a result, the
               federal government hired biologists to study, count, and track local
               orca populations. Scientists, such as Michael Bigg and Ken Balcomb,
-              began to unravel vibrant lives and cultures of the Salish Sea orcas,
+              began to learn about the vibrant lives and cultures of the Salish Sea orcas,
               and our fear of these northwest icons was replaced with awe. <br />
               <br />
               As Ken Balcomb continued monitoring the orca population, he
@@ -140,7 +140,7 @@ const Learn = () => (
               resident orca population boomed. When the salmon runs were weak,
               more resident whales died. In 2005, the Southern Resident killer
               whale population were listed as endangered under the Endangered
-              Species Act following a precipitous in numbers. Today, Southern
+              Species Act following a precipitous drop in numbers. Today, Southern
               Resident killer whales number fewer than when they were listed as
               endangered, a disappointing trend. The main cause of this decline is
               a lack of&nbsp;salmon.
@@ -164,16 +164,16 @@ const Learn = () => (
               layer is where an orca stores ingested pollutants. As top predators
               with long lives, any pollutants in the water (PCBs, DDT, flame
               retardants, etc.) bioaccumulate at the upper levels of the food
-              chain. Well fed orcas store the pollutants in their blubber layer
+              chain. Well-fed orcas store the pollutants in their blubber layer
               where their side effects are minimal. The Transient orcas of the
               Salish Sea have an abundant supply of pinnipeds and other marine
               mammals to feed upon and therefore are able to keep toxins stored
               away in their blubber. The Southern Residents, despite eating lower
               on the food chain (marine mammals vs. salmon), are more at risk to
               toxin exposure since they are metabolizing their blubber stores
-              burning fat during times of low salmon abundance. These toxins are
+              and burning fat during times of low salmon abundance. These toxins are
               proven to disrupt immune and reproductive systems. Compounding these
-              issues are vessel impacts. Underwater noise disrupts the whale's
+              issues are vessel impacts. Underwater noise disrupts the whales'
               echolocation and communication.
             </p>
           </div>
