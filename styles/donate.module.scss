@@ -7,14 +7,20 @@
   margin: auto;
   .donate_options {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    text-align: center;
     h2 {
       font-family: $raleway-bold;
-      margin-bottom: 25px;
+    }
+    p {
+      font-family: $raleway-regular;
+      font-size: 18px;
+      margin: 10px 0 25px 0;
     }
     .payment_services {
       .icon_row {
         display: flex;
+        justify-content: center;
         gap: 25px;
       }
     }
