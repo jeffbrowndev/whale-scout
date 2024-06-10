@@ -1,7 +1,6 @@
 import Layout from '@/components/layout';
 import styles from '@/styles/contact.module.scss';
 import ContactForm from '@/components/contactForm.js';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,

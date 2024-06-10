@@ -21,15 +21,10 @@ export const getStaticProps = async () => {
     (event) => new Date(event.acf.date) >= Date.now()
   );
 
-  // const podcasts = await fetch(
-  //   `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=4`
-  // ).then((podcasts) => podcasts.json());
-
   const news = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`
   ).then((news) => news.json());
 
-  // podcasts.length = 4;
   news.length = 5;
 
   return {

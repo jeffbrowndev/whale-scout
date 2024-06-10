@@ -1,6 +1,5 @@
 import Layout from '@/components/layout';
 import styles from '@/styles/learn.module.scss';
-// import Composition from '@/components/composition';
 import Threats from '@/components/threats';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
