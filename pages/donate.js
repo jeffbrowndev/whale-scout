@@ -21,7 +21,7 @@ const Donate = () => (
       <div className={styles.donate_options}>
         <div className={styles.payment_services}>
           <h2>PayPal</h2>
-          <p>All major credit cards accepted</p>
+          <p>All major credit cards (no account required)</p>
           <div className={styles.icon_row}>
             <Link href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url" target='_blank'>
               <Image src="/donation_icons/paypal.png" height={75} width={75}></Image>
@@ -30,7 +30,7 @@ const Donate = () => (
         </div>
         <div className={styles.payment_services}>
           <h2>Venmo</h2>
-          <p>Venmo account required</p>
+          <p>(Venmo account required)</p>
           <div className={styles.icon_row}>
             <Link href="https://venmo.com/u/WhaleScout" target='_blank'>
               <Image src="/donation_icons/venmo.png" height={75} width={75}></Image>
