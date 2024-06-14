@@ -3,6 +3,8 @@ import styles from '@/styles/donate.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
+//temp
+
 const Donate = () => (
   <Layout>
     <div className={styles.donate}>
