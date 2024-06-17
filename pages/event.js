@@ -1,5 +1,4 @@
 import Layout from '@/components/layout';
-import fetch from 'isomorphic-unfetch';
 import React, { useEffect, useState } from 'react';
 import styles from '@/styles/eventPage.module.scss';
 import { useRouter } from 'next/router';

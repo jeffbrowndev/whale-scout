@@ -1,7 +1,6 @@
 import Layout from '@/components/layout';
 import NewsCard from '@/components/blogPost';
 import styles from '@/styles/blog.module.scss';
-import fetch from 'isomorphic-unfetch';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export const getStaticProps = async () => {

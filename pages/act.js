@@ -1,7 +1,6 @@
 import Layout from '../components/layout';
 import EventSlider from '../components/eventSlider';
 import styles from '@/styles/act.module.scss';
-import fetch from 'isomorphic-unfetch';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 

@@ -1,5 +1,4 @@
 import Layout from '@/components/layout';
-import fetch from 'isomorphic-unfetch';
 import React from 'react';
 import styles from '@/styles/article.module.scss';
 import Link from 'next/link';

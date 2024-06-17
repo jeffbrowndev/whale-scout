@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from "@/components/layout";
-import fetch from 'isomorphic-unfetch';
 import styles from "@/styles/home.module.scss";
 import EventSlider from "@/components/eventSlider";
 import Link from 'next/link';
