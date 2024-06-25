@@ -13,16 +13,16 @@ import Head from 'next/head';
 
 export const getStaticProps = async () => {
   const event_data = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
-  ).then((events) => events.json());
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`,
+    { cache: 'no-store' }).then((events) => events.json());
 
   const events = event_data.filter(
     (event) => new Date(event.acf.date) >= Date.now()
   );
 
   const news = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`
-  ).then((news) => news.json());
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`,
+    { cache: 'no-store' }).then((news) => news.json());
 
   news.length = 5;
 
