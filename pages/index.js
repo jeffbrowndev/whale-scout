@@ -11,7 +11,7 @@ import volunteers from "@/public/ws_home_subheader_volunteers.svg";
 import whale from "@/public/ws_home_whale.svg";
 import Head from 'next/head';
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const event_data = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`,
     { cache: 'no-store' }).then((events) => events.json());
