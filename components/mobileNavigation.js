@@ -22,9 +22,6 @@ const MobileNavigation = () =>  {
             <Link href="/">
               <li>HOME</li>
             </Link>
-            <Link href="/watch">
-              <li>WATCH</li>
-            </Link>
             <li className={styles.dropdown}>
               <input
                 type="checkbox"
@@ -44,6 +41,9 @@ const MobileNavigation = () =>  {
                 </Link>
                 <Link href="/act">
                   <li>VOLUNTEER</li>
+                </Link>
+                <Link href="/watch">
+                  <li>WATCH</li>
                 </Link>
                 <Link href="/orcaHero">
                     <li>BE AN #ORCAHERO</li>
@@ -89,6 +89,9 @@ const MobileNavigation = () =>  {
             </Link>
             <Link href="/contact">
               <li>CONTACT</li>
+            </Link>
+            <Link target="_blank" href="https://shop.whalescout.org">
+              <li className={styles.link_button_bold}>SHOP</li>
             </Link>
           </ul>
         </div>

@@ -57,6 +57,9 @@ const Footer = (props) => {
                 <Link href="/contact">
                   <li className={styles.bold}>CONTACT</li>
                 </Link>
+                <Link target="_blank" href="https://shop.whalescout.org">
+                  <li className={styles.bold}>SHOP</li>
+                </Link>
               </ul>
             </div>
           </div>
