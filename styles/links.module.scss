@@ -16,7 +16,6 @@
   background: $lightgreen;
   z-index: 9999;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.25);
-  padding: 10px 0;
   a {
     text-decoration: none;
   }
@@ -26,7 +25,7 @@
     cursor: pointer;
     letter-spacing: 2px;
     color: $white;
-    padding: 0px 18px 0px;
+    padding: 20px 18px;
   }
   .dropdown {
     position: relative;
@@ -35,7 +34,7 @@
       min-width: 250px;
       display: none;
       position: absolute;
-      top: 44px;
+      top: 60px;
       left: 15px;
       text-align: left;
       li {
@@ -63,7 +62,6 @@
 
 .link_button_bold {
   background: $blue;
-  padding: 15px 25px !important;
   cursor: pointer;
   transition: $fast;
   &:hover {
