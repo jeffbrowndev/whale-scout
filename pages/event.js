@@ -8,13 +8,15 @@ const Event = () => {
   const [event, setEvent] = useState({ body: {__html:""}, acf: {}  });
 
   useEffect(() => {
+    if (!router.isReady) return;
+
     fetch(`https://admin.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
       .then(res => res.json())
       .then(event => setEvent({ 
         body: {__html:event[0].content.rendered.replace(/\n\n\n\n/g, '<br>')}, 
         acf: event[0].acf 
       }));
-  }, [])
+  }, [router.isReady])
 
   return (
     <Layout>

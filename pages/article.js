@@ -12,6 +12,8 @@ const Article = () => {
   const [article, setArticle] = useState({description: {__html:""}});
 
   useEffect(() => {
+    if (!router.isReady) return;
+
     fetch(`https://admin.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
       .then(res => res.json())
       .then(article =>
@@ -22,7 +24,7 @@ const Article = () => {
           image: article[0].acf.featured_image.sizes.large
         })
       );
-  }, []);
+  }, [router.isReady]);
 
   return (
     <Layout>
