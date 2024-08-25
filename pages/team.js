@@ -183,6 +183,7 @@ export default () => (
           <li>F.O.L.K.S. (Friends of Lime Kiln Society)</li>
           <li>Forterra</li>
           <li>Friends of North Creek Forest</li>
+          <li>Keta Legacy Foundation</li>
         </ul>
         <ul>
           <li>King County Parks</li>
@@ -192,20 +193,20 @@ export default () => (
           <li>OneBothell</li>
           <li>Orca Behavior Institute</li>
           <li>Orca Conservancy</li>
+          <li>Orca Network</li>
         </ul>
         <ul>
-          <li>Orca Network</li>
           <li>Orca Salmon Alliance</li>
           <li>Orca Watcher Photography</li>
           <li>The Rose Foundation</li>
           <li>Stowe Family</li>
           <li>Salish SEA</li>
           <li>San Juan County Land Bank</li>
-        </ul>
-        <ul>
           <li>Seattle Aquarium</li>
           <li>Skagit Fisheries Enhancement Group</li>
-          <li>Tulialip Tribes</li>
+        </ul>
+        <ul>
+          <li>Tulalip Tribes</li>
           <li>WA Department of Fish and Wildlife</li>
           <li>WA Department of Natural Resources</li>
           <li>WRIA 8</li>
