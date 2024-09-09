@@ -2,6 +2,7 @@ import Layout from '@/components/layout';
 import Member from '@/components/member';
 import styles from '@/styles/team.module.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Link from 'next/link';
 
 // Create team member
 class TeamMember {
@@ -183,7 +184,7 @@ export default () => (
           <li>F.O.L.K.S. (Friends of Lime Kiln Society)</li>
           <li>Forterra</li>
           <li>Friends of North Creek Forest</li>
-          <li>Keta Legacy Foundation</li>
+          <li><Link href={"https://ketalegacy.org/"} target='_blank'>Keta Legacy Foundation</Link></li>
         </ul>
         <ul>
           <li>King County Parks</li>
