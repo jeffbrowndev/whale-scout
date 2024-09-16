@@ -74,9 +74,11 @@
     ul {
       li {
         font-family: $raleway-bold;
-        color: $blue;
         line-height: 2.5;
         font-size: 15px;
+        .supporter_link {
+          color: $blue;
+        }
       }
     }
     @include mQ(1350px) {

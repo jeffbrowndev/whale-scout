@@ -177,41 +177,41 @@ export default () => (
       <div className={styles.line} />
       <div className={styles.supporters}>
         <ul>
-          <li>Center for Whale Research</li>
-          <li>City of Bothell</li>
-          <li>Defenders of Wildlife NW</li>
-          <li>EarthCorps</li>
-          <li>F.O.L.K.S. (Friends of Lime Kiln Society)</li>
-          <li>Forterra</li>
-          <li>Friends of North Creek Forest</li>
-          <li><Link href={"https://ketalegacy.org/"} target='_blank'>Keta Legacy Foundation</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.whaleresearch.com/"} target='_blank'>Center for Whale Research</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.bothellwa.gov/"} target='_blank'>City of Bothell</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://defenders.org/"} target='_blank'>Defenders of Wildlife NW</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.earthcorps.org/"} target='_blank'>EarthCorps</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://folkssji.org/"} target='_blank'>F.O.L.K.S. (Friends of Lime Kiln Society)</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://forterra.org/"} target='_blank'>Forterra</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.friendsnorthcreekforest.org/"} target='_blank'>Friends of North Creek Forest</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://ketalegacy.org/"} target='_blank'>Keta Legacy Foundation</Link></li>
         </ul>
         <ul>
-          <li>King County Parks</li>
-          <li>King County Wastewater Treatment Division</li>
-          <li>MidSound Fisheries Enhancement Group</li>
-          <li>The Nature Conservancy</li>
-          <li>OneBothell</li>
-          <li>Orca Behavior Institute</li>
-          <li>Orca Conservancy</li>
-          <li>Orca Network</li>
+          <li><Link className={styles.supporter_link} href={"https://kingcounty.gov/en/dept/dnrp/nature-recreation/parks-recreation/king-county-parks"} target='_blank'>King County Parks</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://kingcounty.gov/en/dept/dnrp/waste-services/wastewater-treatment/about"} target='_blank'>King County Wastewater Treatment Division</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.midsoundfisheries.org/"} target='_blank'>MidSound Fisheries Enhancement Group</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.nature.org/en-us/about-us/where-we-work/united-states/washington/"} target='_blank'>The Nature Conservancy</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://onebothell.org/"} target='_blank'>OneBothell</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://orcabehaviorinstitute.org/"} target='_blank'>Orca Behavior Institute</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.orcaconservancy.org/?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8jYcefe7kEMwQkwHft76_f64O-YHiuPSiLTBT_AhTTr_PKakjOU3fhoCBpAQAvD_BwE"} target='_blank'>Orca Conservancy</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.orcanetwork.org/"} target='_blank'>Orca Network</Link></li>
         </ul>
         <ul>
-          <li>Orca Salmon Alliance</li>
-          <li>Orca Watcher Photography</li>
-          <li>The Rose Foundation</li>
+          <li><Link className={styles.supporter_link} href={"https://www.orcamonth.com/osa"} target='_blank'>Orca Salmon Alliance</Link></li>
+          <li><Link className={styles.supporter_link} href={"http://www.orcawatcher.com/"} target='_blank'>Orca Watcher Photography</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://rosefdn.org/"} target='_blank'>The Rose Foundation</Link></li>
           <li>Stowe Family</li>
-          <li>Salish SEA</li>
-          <li>San Juan County Land Bank</li>
-          <li>Seattle Aquarium</li>
-          <li>Skagit Fisheries Enhancement Group</li>
+          <li><Link className={styles.supporter_link} href={"https://whalemuseum.org/pages/salish-sea-association-of-marine-naturalists"} target='_blank'>Salish SEA</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://sjclandbank.org/"} target='_blank'>San Juan County Land Bank</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.seattleaquarium.org/"} target='_blank'>Seattle Aquarium</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.skagitfisheries.org/"} target='_blank'>Skagit Fisheries Enhancement Group</Link></li>
         </ul>
         <ul>
-          <li>Tulalip Tribes</li>
-          <li>WA Department of Fish and Wildlife</li>
-          <li>WA Department of Natural Resources</li>
-          <li>WRIA 8</li>
-          <li>The Whale Museum</li>
+          <li><Link className={styles.supporter_link} href={"https://www.tulaliptribes-nsn.gov/"} target='_blank'>Tulalip Tribes</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://wdfw.wa.gov/"} target='_blank'>WA Department of Fish and Wildlife</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.dnr.wa.gov/"} target='_blank'>WA Department of Natural Resources</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://www.govlink.org/watersheds/8/default.aspx"} target='_blank'>WRIA 8</Link></li>
+          <li><Link className={styles.supporter_link} href={"https://whalemuseum.org/"} target='_blank'>The Whale Museum</Link></li>
         </ul>
       </div>
     </div>
