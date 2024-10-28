@@ -4,7 +4,7 @@ import styles from '@/styles/act.module.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const event_data = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
   ).then(events => events.json());
