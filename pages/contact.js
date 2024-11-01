@@ -36,11 +36,11 @@ const Contact = () => (
               src={`https://admin.whalescout.org/wp-content/uploads/2019/03/marker.svg`}
             />
             <p>
-              PO Box 426
+              18414 104th Ave NE #330
               <br />
-              Woodinville, WA
+              Bothell, WA
               <br />
-              98072
+              98011
             </p>
           </div>
           <div className={styles.content_icon_section}>

@@ -60,29 +60,6 @@ const Juliana = new TeamMember(
   red
 );
 
-const Bryan = new TeamMember(
-  'Bryan Alvarez',
-  'Board Member',
-  'Bryan@wrestlingobserver.com',
-  (
-    <p>
-      Bryan Alvarez has been the editor and publisher of Figure Four Weekly 
-      since 1995. Besides the newsletter, which covers pro-wrestling and mixed 
-      martial arts, he has also written wrestling columns for Penthouse Magazine 
-      (Mat Max!) in 1999 and 2000; The Fight Network in Canada and Fighting Spirit 
-      Magazine in the UK; co-authored Death of WCW with RD Reynolds in 2004; 
-      wrestled professionally throughout the US and Canada since 1993; and trains 
-      extensively in Gracie Jiu-Jitsu where he holds a black belt under Master Pedro Sauer. 
-      He currently works as host of Wrestling Observer Live on the Sports Byline Radio 
-      Network and hosts Figure Four Daily, Wrestling Observer Radio, and the Bryan & Vinny Show at
-      &nbsp;<a href="https://www.wrestlingobserver.com" target="_blank">www.wrestlingobserver.com</a>.
-      Bryan has previously helped produce episodes of the Whale Scout Podcast and serves as an editor.
-    </p>
-  ),
-  `https://admin.whalescout.org/wp-content/uploads/2019/03/bryan.jpg`,
-  blue
-);
-
 const Kailey = new TeamMember(
   'Kailey Garson',
   'Board Member, San Juan Island Naturalist Program Co-Coordinator',
@@ -121,23 +98,22 @@ const Rachael = new TeamMember(
 
 const Valerye = new TeamMember(
   'Valerye Perez',
-  'Internship Coordinator',
+  'Board Member',
   '',
-  'Valerye is completing her degree at Western Washington University in Environmental Science with an emphasis on freshwater and terrestrial ecology. She started with Whale Scout as an intern and is now an Intern Coordinator. She is a native Spanish-speaker, loves to knit, crochet and read.',
+  'Valerye completed her degree at Western Washington University in Environmental Science with an emphasis on freshwater and terrestrial ecology in 2024. Valerye started with Whale Scout as an intern, then as an Intern Coordinator, and now serves as a board member sharing her insights on early career development in the field of environmental conservation. She is a native Spanish-speaker, loves to knit, crochet and read.',
   `valerye.jpg`,
-  yellow
+  blue
 );
 
 // All team members
 const team = [
   Whitney,
   Juliana,
-  Bryan,
+  Valerye,
   Kailey,
   Ariel,
   Laurie,
   Rachael,
-  Valerye
 ];
 
 export default () => (

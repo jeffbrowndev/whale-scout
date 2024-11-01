@@ -42,11 +42,11 @@ const Donate = () => (
         <div className={styles.address}>
           <h2>Paper checks</h2>
           <p>
-            PO Box 426
+            18414 104th Ave NE #330
             <br/>
-            Woodinville, WA
+            Bothell, WA
             <br/>
-            98072
+            98011
           </p>
         </div>
       </div>

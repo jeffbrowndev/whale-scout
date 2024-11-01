@@ -106,9 +106,9 @@ const Footer = (props) => {
               <div className={styles.address}>
                 <h3>Contact</h3>
                 <p>
-                  P.O. Box 426
+                  18414 104th Ave NE #330
                   <br />
-                  Woodinville, WA 98072
+                  Bothell, WA 98011
                   <br />
                   425-770-0787
                   <br />
