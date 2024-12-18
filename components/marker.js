@@ -5,7 +5,7 @@ const Marker = props => (
     <a href={props.map_link} target='_blank'>
       <img
         className={styles.marker}
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/marker.png`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/03/marker.png`}
       />
       <h4>{props.location}</h4>
     </a>

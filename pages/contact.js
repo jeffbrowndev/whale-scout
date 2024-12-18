@@ -33,7 +33,7 @@ const Contact = () => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src={`https://admin.whalescout.org/wp-content/uploads/2019/03/marker.svg`}
+              src={`https://login.whalescout.org/wp-content/uploads/2019/03/marker.svg`}
             />
             <p>
               18414 104th Ave NE #330
@@ -46,14 +46,14 @@ const Contact = () => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src={`https://admin.whalescout.org/wp-content/uploads/2019/03/phone.svg`}
+              src={`https://login.whalescout.org/wp-content/uploads/2019/03/phone.svg`}
             />
             <p>425-770-0787</p>
           </div>
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src={`https://admin.whalescout.org/wp-content/uploads/2019/03/email.svg`}
+              src={`https://login.whalescout.org/wp-content/uploads/2019/03/email.svg`}
             />
             <p>info@whalescout.org</p>
           </div>

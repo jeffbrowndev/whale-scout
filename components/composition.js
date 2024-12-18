@@ -6,15 +6,15 @@ const Composition = props => (
       <h1>The Southern Resident Orcas</h1>
       <img
         className={styles.composition_desktop}
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/05/composition_desktop.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/05/composition_desktop.svg`}
       />
       <img
         className={styles.composition_tablet}
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/05/composition_tablet.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/05/composition_tablet.svg`}
       />
       <img
         className={styles.composition_mobile}
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/05/composition_mobile.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/05/composition_mobile.svg`}
       />
       <p>
         As Southern Residents struggle to survive, imbalances in the age and sex

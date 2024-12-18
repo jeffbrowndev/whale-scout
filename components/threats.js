@@ -11,7 +11,7 @@ const Threats = () => (
         </p>
       </div>
       <img
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/chasing.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/03/chasing.svg`}
       />
     </div>
     <div className={styles.threats_middle}>
@@ -23,7 +23,7 @@ const Threats = () => (
         </p>
       </div>
       <img
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/toxins-1.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/03/toxins-1.svg`}
       />
     </div>
     <div className={styles.threats_bottom}>
@@ -35,7 +35,7 @@ const Threats = () => (
         </p>
       </div>
       <img
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/vessels.svg`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/03/vessels.svg`}
       />
     </div>
   </div>

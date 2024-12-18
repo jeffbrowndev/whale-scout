@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const getServerSideProps = async () => {
   const event_data = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
+    `https://login.whalescout.org/wp-json/wp/v2/posts?categories=2`
   ).then(events => events.json());
 
   const events = event_data.filter(

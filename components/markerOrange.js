@@ -5,7 +5,7 @@ const MarkerOrange = props => (
     <a href={props.map_link} target='_blank'>
       <img
         className={styles.marker}
-        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/marker.png`}
+        src={`https://login.whalescout.org/wp-content/uploads/2019/03/marker.png`}
       />
       <h4 className={styles.orange}>
         {props.location} (check the calendar for when volunteers visit this

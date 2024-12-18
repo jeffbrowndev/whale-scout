@@ -36,7 +36,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/chinook.jpg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/chinook.jpg"`}
           />
           <p className="image_caption">Georgia Strait Alliance</p>
           <div className="article_section">
@@ -57,7 +57,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/sockeye.jpg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/sockeye.jpg"`}
           />
           <p className="image_caption">
             Sockeye Salmon in the Adams River, Department of Fisheries and Oceans
@@ -116,7 +116,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/captured.jpg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/captured.jpg"`}
           />
           <p className="image_caption">
             Members of L pod captured in Penn Cove, Wallie Funk, Associated Press
@@ -146,7 +146,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/graph.jpg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/graph.jpg"`}
           />
           <p className="image_caption">
             Annual indices of mortality of (a) northern and (b) southern resident
@@ -216,7 +216,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/salmon_map.svg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/salmon_map.svg"`}
           />
           <p className="image_caption" />
           <div className="article_section">
@@ -269,7 +269,7 @@ const Learn = () => (
             </p>
           </div>
           <img
-            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/how_were_helping.jpg"`}
+            src={`https://login.whalescout.org/wp-content/uploads/2019/03/how_were_helping.jpg"`}
           />
           <p className="image_caption">The Nature Conservancy</p>
           <div className="article_section">

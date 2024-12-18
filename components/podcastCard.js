@@ -34,7 +34,7 @@
 //               }`}
 //             >
 //               <img
-//                 src={`https://admin.whalescout.org/wp-content/uploads/2019/03/play.svg`}
+//                 src={`https://login.whalescout.org/wp-content/uploads/2019/03/play.svg`}
 //               />
 //             </Link>
 //             <span>LISTEN NOW</span>

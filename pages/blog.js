@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export const getStaticProps = async () => {
   const posts = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`
+    `https://login.whalescout.org/wp-json/wp/v2/posts?categories=3`
   ).then(posts => posts.json());
 
   return { props: { posts } };

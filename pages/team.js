@@ -28,7 +28,7 @@ const Whitney = new TeamMember(
   'Director',
   'director@whalescout.org',
   "Whitney Neugebauer completed degrees in Geology and Anthropology from Eckerd College prior to receiving her master’s degree in Marine and Environmental Affairs from the University of Washington. She went on to found Whale Scout in 2013. She lives in Bothell, Washington where she enjoys camping with her family and exploring all that the PNW has to offer.",
-  `https://admin.whalescout.org/wp-content/uploads/2019/03/whitney.jpg`,
+  `https://login.whalescout.org/wp-content/uploads/2019/03/whitney.jpg`,
   green
 );
 
@@ -56,7 +56,7 @@ const Juliana = new TeamMember(
       and&nbsp;camping.
     </p>
   ),
-  `https://admin.whalescout.org/wp-content/uploads/2019/03/juliana.jpg`,
+  `https://login.whalescout.org/wp-content/uploads/2019/03/juliana.jpg`,
   red
 );
 
@@ -65,7 +65,7 @@ const Kailey = new TeamMember(
   'Board Member, San Juan Island Naturalist Program Co-Coordinator',
   'Kaileyrenee@gmail.com',
   'Kailey holds a B.S. from the University of Washington School of Aquatic and Fishery Science and a M.M.A. from the University of Washington’s School of Marine and Environmental Affairs. Her undergraduate work focused on the effects of the aquarium trade on the Southern Resident killer whale population, whereas her masters work investigated the similarities and differences in the rare cooperative fisheries that have existed and exist throughout the world between humans and five cetacean species. Kailey currently lives in Friday Harbor, WA, with her husband, two kids, two cats, and two dogs. When she is not involved in marine mammal work she can be found in ballet class (she’s danced many forms of dance since a little girl), enjoying the outdoors, and spending time with friends and family.',
-  `https://admin.whalescout.org/wp-content/uploads/2019/03/kailey.jpg`,
+  `https://login.whalescout.org/wp-content/uploads/2019/03/kailey.jpg`,
   yellow
 );
 
@@ -83,7 +83,7 @@ const Laurie = new TeamMember(
   'Bear Creek Riparian Restoration Lead',
   '',
   'Native of the Pacific Northwest, Laurie grew up in Kirkland, graduated with a MED from the University of Washington and went on to teach ESL (English as a Second Language) for Lake Washington School District. Now retired, after a 37 year teaching career, Laurie focuses her energy on helping the Southern Resident Killer Whales in any way possible. She’s been with Whale Scout since 2014, is a Forest Steward at Idylwood Park, and a water quality monitor for SnoKing Watershed Council. Laurie also volunteers on the Soundwatch Education boat, sponsored by The Whale Museum. Laurie believes that education is KEY to helping the whales and jumps at the chance to talk with kids as well as adults about what they can do to help. She also loves organizing restoration work parties along salmon spawning streams and field trips to the Elwha River.',
-  `https://admin.whalescout.org/wp-content/uploads/2019/05/laurie.jpg`,
+  `https://login.whalescout.org/wp-content/uploads/2019/05/laurie.jpg`,
   red
 );
 

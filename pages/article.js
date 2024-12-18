@@ -14,7 +14,7 @@ const Article = () => {
   useEffect(() => {
     if (!router.isReady) return;
 
-    fetch(`https://admin.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
+    fetch(`https://login.whalescout.org/wp-json/wp/v2/posts?slug=${router.query.slug}`)
       .then(res => res.json())
       .then(article =>
         setArticle({

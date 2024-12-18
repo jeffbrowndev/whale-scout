@@ -13,7 +13,7 @@ import Head from 'next/head';
 
 export const getServerSideProps = async () => {
   const event_data = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`,
+    `https://login.whalescout.org/wp-json/wp/v2/posts?categories=2`,
     { cache: 'no-store' }).then((events) => events.json());
 
   const events = event_data.filter(
@@ -21,7 +21,7 @@ export const getServerSideProps = async () => {
   );
 
   const news = await fetch(
-    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`,
+    `https://login.whalescout.org/wp-json/wp/v2/posts?categories=3`,
     { cache: 'no-store' }).then((news) => news.json());
 
   news.length = 5;
