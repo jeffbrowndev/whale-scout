@@ -2,6 +2,31 @@
 @import "./mixins";
 
 .internships {
+  .now_hiring {
+    padding: 50px 2vw;
+    background: $blue;
+    text-align: center;
+    color: white;
+    font-family: $raleway-regular;
+    h1 {
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 24px;
+      color: $lightgreen;
+      text-decoration: underline;
+    }
+    @include mQ(960px) {
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 20px;
+        color: $lightgreen;
+        text-decoration: underline;
+      }
+    }
+  }
   .internships_header_container {
     width: 100%;
     background-image: url("../public/internships_background.jpg");

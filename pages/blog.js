@@ -3,7 +3,7 @@ import NewsCard from '@/components/blogPost';
 import styles from '@/styles/blog.module.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const posts = await fetch(
     `https://login.whalescout.org/wp-json/wp/v2/posts?categories=3`
   ).then(posts => posts.json());

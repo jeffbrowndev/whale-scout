@@ -2,6 +2,7 @@ import Layout from '../components/layout';
 import styles from '@/styles/internships.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Internships = () => (
   <Layout>
@@ -32,6 +33,10 @@ const Internships = () => (
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.now_hiring}>
+        <h1>Now Hiring Interns: Diverse Voices Student Leadership Program</h1>
+        <Link href="https://www.whalescout.org/article?slug=now-hiring-interns-diverse-voices-student-leadership-program"><p>Click here for more information</p></Link>
       </div>
       <div className={styles.internships}>
         <div className={styles.internships_container}>
