@@ -42,11 +42,11 @@ const Donate = () => (
         <div className={styles.address}>
           <h2>Paper checks</h2>
           <p>
-            18414 104th Ave NE #330
+            20921 28th Ave SE
             <br/>
             Bothell, WA
             <br/>
-            98011
+            98021
           </p>
         </div>
       </div>

@@ -36,11 +36,11 @@ const Contact = () => (
               src={`https://login.whalescout.org/wp-content/uploads/2019/03/marker.svg`}
             />
             <p>
-              18414 104th Ave NE #330
+              20921 28th Ave SE
               <br />
               Bothell, WA
               <br />
-              98011
+              98021
             </p>
           </div>
           <div className={styles.content_icon_section}>

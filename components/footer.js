@@ -106,9 +106,9 @@ const Footer = (props) => {
               <div className={styles.address}>
                 <h3>Contact</h3>
                 <p>
-                  18414 104th Ave NE #330
+                  20921 28th Ave SE
                   <br />
-                  Bothell, WA 98011
+                  Bothell, WA 98021
                   <br />
                   425-770-0787
                   <br />
