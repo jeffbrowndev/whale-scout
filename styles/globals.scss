@@ -9,6 +9,12 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+h2 {
+  font-family: $raleway-bold;
+  color: $blue;
+  margin-bottom: 15px;
+}
+
 li {
   list-style: none;
 }
@@ -111,6 +117,9 @@ a {
     width: 15px;
     margin-left: 25px;
     margin-right: 10px;
+    @include mQ($mobile-large) {
+      margin-left: 0;
+    }
   }
 }
 

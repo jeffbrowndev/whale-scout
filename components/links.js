@@ -13,8 +13,8 @@ const Links = () => {
         GET INVOLVED
         <FontAwesomeIcon icon={faSortDown} className={styles.icon} />
         <ul>
-        <Link href="/internships">
-            <li>INTERNSHIPS</li>
+        <Link href="/studentPrograms">
+            <li>STUDENT PROGRAMS</li>
           </Link>
           <Link href="/act">
             <li>VOLUNTEER</li>

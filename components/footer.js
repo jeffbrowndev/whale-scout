@@ -23,8 +23,8 @@ const Footer = (props) => {
                 <Link href="/watch">
                   <li className={styles.bold}>WATCH</li>
                 </Link>
-                <Link href="/internships">
-                  <li className={styles.bold}>INTERNSHIPS</li>
+                <Link href="/studentPrograms">
+                  <li className={styles.bold}>STUDENT PROGRAMS</li>
                 </Link>
                 <Link href="/act">
                   <li className={styles.bold}>RESTORE HABITAT</li>
@@ -153,8 +153,8 @@ const Footer = (props) => {
           {props.credits}
           Website&nbsp;by&nbsp;
           <span>
-            <a href="http://www.jeffbrown.io" target="_blank">
-              <u>Jeff&nbsp;Brown</u>
+            <a href="http://www.opuswebworks.com" target="_blank">
+              <u>Opus&nbsp;Webworks</u>
             </a>
           </span>
         </p>

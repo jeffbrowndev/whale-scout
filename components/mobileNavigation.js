@@ -36,8 +36,8 @@ const MobileNavigation = () =>  {
                 />
               </label>
               <ul className={styles.about_dropdown}>
-                <Link href="/internships">
-                  <li>INTERNSHIPS</li>
+                <Link href="/studentPrograms">
+                  <li>STUDENT PROGRAMS</li>
                 </Link>
                 <Link href="/act">
                   <li>VOLUNTEER</li>

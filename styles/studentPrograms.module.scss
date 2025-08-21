@@ -1,7 +1,13 @@
 @import "./variables";
 @import "./mixins";
 
-.internships {
+.studentPrograms {
+  .program_section {
+    margin-top: 25px;
+    h3 {
+      color: $darkgreen;
+    }
+  }
   .now_hiring {
     padding: 50px 2vw;
     background: $blue;
@@ -27,13 +33,13 @@
       }
     }
   }
-  .internships_header_container {
+  .studentPrograms_header_container {
     width: 100%;
-    background-image: url("../public/internships_background.jpg");
+    background-image: url("../public/studentPrograms_background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    .internships_header {
+    .studentPrograms_header {
       display: flex;
       justify-content: center;
       width: 1200px;
@@ -46,17 +52,17 @@
       @include mQ(960px) {
         display: block;
         padding: 50px 0;
-        .internships_header_text {
+        .studentPrograms_header_text {
           width: 100% !important;
           margin-left: 0 !important;
           text-align: center;
         }
-        .internships_header_image {
+        .studentPrograms_header_image {
           width: 400px !important;
           margin: auto;
         }
       }
-      .internships_header_text {
+      .studentPrograms_header_text {
         width: 55%;
         margin-left: 5%;
         .article_container {
@@ -70,7 +76,7 @@
           }
         }
       }
-      .internships_header_image {
+      .studentPrograms_header_image {
         position: relative;
         width: 40%;
         @include mQ(500px) {
@@ -94,8 +100,8 @@
       }
     }
   }
-  .internships {
-    .internships_container {
+  .studentPrograms {
+    .studentPrograms_container {
       width: 1200px !important;
       margin: auto;
       @include mQ(1300px) {
@@ -113,7 +119,7 @@
       }
     }
   }
-  .internships_more {
+  .studentPrograms_more {
     display: flex;
     align-items: center;
     width: 1200px;
@@ -130,12 +136,12 @@
           text-align: center;
         }
       }
-      .internships_more_image {
+      .studentPrograms_more_image {
         width: 400px !important;
         margin: auto;
       }
     }
-    #internships_more_article {
+    #studentPrograms_more_article {
       width: 100%;
       margin-left: 5%;
       .article_section {
@@ -145,7 +151,7 @@
         margin-left: 0;
       }
     }
-    .internships_more_image {
+    .studentPrograms_more_image {
       position: relative;
       width: 60%;
       @include mQ(500px) {
