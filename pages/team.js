@@ -28,7 +28,7 @@ const Whitney = new TeamMember(
   'Director',
   'director@whalescout.org',
   "Whitney Neugebauer completed degrees in Geology and Anthropology from Eckerd College prior to receiving her master’s degree in Marine and Environmental Affairs from the University of Washington. She went on to found Whale Scout in 2013. She lives in Bothell, Washington where she enjoys camping with her family and exploring all that the PNW has to offer.",
-  `https://login.whalescout.org/wp-content/uploads/2019/03/whitney.jpg`,
+  `https://login.whalescout.org/wp-content/uploads/2026/01/Whitney.jpg`,
   green
 );
 
@@ -89,10 +89,10 @@ const Laurie = new TeamMember(
 
 const Rachael = new TeamMember(
   'Rachael Kutz',
-  'Student and Community Education Coordinator',
+  'Field Biologist and Education Manager',
   'rachaelk@whalescout.org',
-  "She realized her true passion was to care for wildlife any way she could through means of conservation and habitat restoration. Ever since a child, she would visit Seattle in hopes of one day living here. Now that she's accomplished that dream, she wants to do everything in her power to protect the wildlife here, both on land and in the sea. When not out with Whale Scout, she’s volunteering at the Seattle Aquarium, baking, painting, snowboarding, or caring for nearly 60 house plants!",
-  `rachael.jpg`,
+  'Rachael Kutz completed a BS degree in Biology and Animal Sciences in 2020 from George Fox University and went on to study Herpetology and Pre-Veterinary Medicine at OSU and UIUC. She started working at Whale Scout as an intern in 2023 and worked her way up to Field Biologist and Education Manager now supervising and leading various WS restoration projects. After graduating, Rachael realized her true passion was to care for wildlife any way she could through means of conservation and habitat restoration. Ever since a child, she would visit Seattle in hopes of one day living here. Now that she\'s accomplished that dream, she wants to do everything in her power to protect the wildlife here, both on land and in the sea. When not out with Whale Scout, she’s volunteering at the Seattle Aquarium, painting, snowboarding, or caring for nearly 60 house plants!',
+  `https://login.whalescout.org/wp-content/uploads/2026/01/Rachael.jpg`,
   blue
 );
 
@@ -105,6 +105,24 @@ const Valerye = new TeamMember(
   blue
 );
 
+const Liz = new TeamMember(
+  'Liz Macias',
+  'Field Technician ',
+  '',
+  'Liz has always had a passion for caring for wildlife and the environment from a young age. She is driven by the desire to leave the Earth better than she found it, hoping to inspire others along the way. She received a degree in Conservation and Restoration science in 2025 from the University of Washington Bothell and published her research paper “Benthic Foraminifera Found to Have Survived Better During the Paleocene- Eocene Thermal Maximum with Implications to a Future Mass Extinction Event” in The Crow. She loves field-based research; however, when she\'s not in the field, she enjoys puzzling, reading, long bike rides, and enjoying new experiences.',
+  `https://login.whalescout.org/wp-content/uploads/2026/01/Liz.jpg`,
+  yellow
+);
+
+const Madi = new TeamMember(
+  'Madi Stark',
+  'Field Technician ',
+  '',
+  'Madalynn Stark (or Madi), completed a degree in Environmental Justice, with minors in History and Global Engagement, at Seattle Pacific University in 2025. Madi began at Whale Scout as a summer intern and then took on the role of Field Technician in the fall of 2025. She is deeply passionate about the environment and hopes to inspire others to continue Whale Scout\'s mission of protecting and restoring salmon habitat. Having an affinity with whales and all marine life since she was little, she feels excited and motivated to be outside and make a difference. Madi lives in Seattle, and while not out in the field, she is hiking, reading, skiing, playing soccer, adding as many houseplants as possible to her home, writing piano music, and finding the best coffee shops and thrift stores in the city.',
+  `https://login.whalescout.org/wp-content/uploads/2026/01/Madi.jpg`,
+  green
+);
+
 // All team members
 const team = [
   Whitney,
@@ -114,6 +132,8 @@ const team = [
   Ariel,
   Laurie,
   Rachael,
+  Liz,
+  Madi,
 ];
 
 export default () => (
